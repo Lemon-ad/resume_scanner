@@ -1,0 +1,22 @@
+# Python environment and cache
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Private resumes and local data
+*.pdf
+*.docx
+data/
+uploads/
+
+# Downloaded models
+models/
+.cache/
